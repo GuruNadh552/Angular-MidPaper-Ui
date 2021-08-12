@@ -1,0 +1,17 @@
+<div class="container">
+    <div class="card mt-3">
+        <div class="card-header bg-dark text-light text-center font-weight-bold">
+            <h4>Question Maker</h4>
+        </div>
+        <div class="card-body">
+            <div class="form-group" *ngFor="let j of ques;let i = index;">
+                <label for="q">Enter Question {{i+1}}</label>
+                <input type="text" class="form-control" [(ngModel)]="ans[i]" placeholder="Enter Question No {{i+1}}">
+                {{ans[i]}}
+            </div>
+        </div>
+        <div class="card-footer bg-dark text-center">
+            <button class="btn btn-primary">Submit</button>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "qpgenguru": {
+      "hosting": {
+        "first-app": [
+          "qpgenguru"
+        ]
+      }
+    }
+  }
+}
