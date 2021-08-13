@@ -1,0 +1,42 @@
+.title {
+    font-size: 26px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+.title-com{
+    font-weight: bold;
+    font-size: 19px;
+}
+.title-sub{
+    margin-left: 180px;
+}
+.title-sub2{
+    margin-right: 0px;
+    margin-left: 150px;
+}
+.line{
+    border: 1px solid #000;
+    color:#000;
+    margin: 20px;
+}
+.question-num{
+    font-weight: bold;
+    font-size: 19px;
+    margin-left: 70px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.question{
+    font-size: 19px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+.container{
+    margin-top: 140px!important;
+}
+
+@media print{
+    .btn-info{
+        display: none;
+    }
+}
